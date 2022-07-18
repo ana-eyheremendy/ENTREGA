@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@,100...300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+body {font-family: 'Roboto', sans-serif;
+font-size: 80%; }
+
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-weight: 800;
+    font-size: 6.29em;
+    color: #E63F84;
+    
+}
+
+a {
+    font-size: 1.2em;
+    color: #ED9154;
+    text-decoration: none ;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+a:hover { color: #F4F3EF;
+
+background-color: #ED9154 ;
+
+}
+
+
+
+
+p {font-weight:300; font-family: 'Roboto', sans-serif; font-size: 1.06em; color: #E63F84;}
+#nombre { font-family: 'Rock Salt', cursive; font-weight:400; font-size: 2.11em;  color: #ED9154;}
+
+@media (max-width:768px) {
+    body {
+        font-size: 60%;}
+}
